@@ -12,19 +12,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Notice": {
+    "notice": {
       "type": "string"
     },
-    "Email": {
+    "email": {
       "type": "email"
     },
-    "Date": {
+    "date": {
       "type": "datetime"
     },
-    "Venue": {
+    "venue": {
       "type": "string"
     },
-    "Images": {
+    "images": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -35,14 +35,21 @@
         "audios"
       ]
     },
-    "Description": {
+    "description": {
       "type": "richtext"
     },
-    "Detaiils": {
+    "detaiils": {
       "type": "richtext"
     },
-    "Department": {
+    "department": {
       "type": "string"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "approved"
+      ]
     }
   }
 }
