@@ -13,10 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "notice": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "email": {
-      "type": "email"
+      "type": "email",
+      "required": true
     },
     "date": {
       "type": "datetime"
@@ -36,7 +38,8 @@
       ]
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "detaiils": {
       "type": "richtext"
@@ -49,7 +52,8 @@
       "enum": [
         "pending",
         "approved"
-      ]
+      ],
+      "default": "pending"
     }
   }
 }
