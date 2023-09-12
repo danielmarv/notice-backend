@@ -41,7 +41,7 @@
       "type": "richtext",
       "required": true
     },
-    "detaiils": {
+    "details": {
       "type": "richtext"
     },
     "department": {
