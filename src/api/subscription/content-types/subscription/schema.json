@@ -4,7 +4,8 @@
   "info": {
     "singularName": "subscription",
     "pluralName": "subscriptions",
-    "displayName": "subscription"
+    "displayName": "subscription",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,7 +14,7 @@
   "attributes": {
     "email": {
       "type": "email",
-      "required": true,
+      "required": false,
       "unique": true
     }
   }
