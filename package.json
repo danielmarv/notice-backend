@@ -18,6 +18,7 @@
     "better-sqlite3": "8.5.0",
     "strapi-chatgpt": "^1.0.2",
     "strapi-plugin-country-select": "^1.0.2",
+    "strapi-plugin-entity-relationship-chart": "^4.1.0",
     "strapi-plugin-multi-select": "^1.2.2"
   },
   "author": {
